@@ -2,8 +2,9 @@ class AdminGenerator < Rails::Generators::Base
   source_root File.expand_path('../templates', __FILE__)
 
   def create_admin
-    class_path = "admin"
-      generate("scaffold_controller", "spot")
+    puts "hello world"
+    # class_path = "admin"
+    #   generate("scaffold_controller", "spot")
     # models.each do |model|
     #   class_path = "admin"
     #   generate("scaffold_controller", "admin/#{model}")

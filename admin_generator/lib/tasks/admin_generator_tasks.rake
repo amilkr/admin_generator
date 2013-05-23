@@ -1,4 +1,0 @@
-# desc "Explaining what the task does"
-# task :admin_generator do
-#   # Task goes here
-# end
